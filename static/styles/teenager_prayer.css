@@ -10,3 +10,13 @@
     width: 100%;
     height: 100%;
 }
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    /* color: #333; old IE */
+    /* background-color: #333; Modern Browsers */
+}
+.heading {
+    color: #5991eb;
+}
