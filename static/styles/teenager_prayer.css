@@ -1,12 +1,12 @@
-body {
+.youtube_video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
     overflow: hidden;
 }
-#youtube_video {
-       background-color: aliceblue;
-}
-
-#centered_div_youtube_video {
+.youtube_video iframe {
+    position: absolute;
     width: 100%;
-    height: 425px;
-    margin-left: 25%;
+    height: 100%;
 }

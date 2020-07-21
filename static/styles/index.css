@@ -1,8 +1,6 @@
-body {
-    overflow: hidden;
-}
+
 .bg {
-    background-color: red;
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
