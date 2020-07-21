@@ -1,0 +1,16 @@
+{%extends 'layout.html'%}
+{%block title%}
+A teenager's Prayer
+{%endblock title%}
+{%block importFiles%}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/teenager_prayer.css') }}">
+{%endblock importFiles%}
+
+{%block content%}
+<div id="youtube_video">
+    <div id="centered_div_youtube_video">
+        <iframe width="756" height="425" src="https://www.youtube.com/embed/WcjX6h65sNM" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+{%endblock content%}
