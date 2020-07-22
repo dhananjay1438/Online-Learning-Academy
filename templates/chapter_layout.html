@@ -1,0 +1,41 @@
+{%  extends "layout.html"  %}
+{% block title %}
+{% endblock title %}
+
+{% block importFiles %}
+
+{% endblock importFiles %}
+
+{% block content %}
+<div>
+    <div class="youtube_video">
+        <iframe src="https://www.youtube.com/embed/WcjX6h65sNM" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <hr />
+    <div class="course_material">
+        <p class="text-center h3 heading">
+            <strong>Course Material</strong>
+        </p>
+        {%  block course_material  %}
+        {%  endblock course_material  %}
+    </div>
+    <hr />
+    <div class="tests">
+        <p class="text-center h3 heading" >
+            <strong>Take a test</strong>
+        </p>
+        {%  block test  %}
+        {%  endblock test  %}
+    </div>
+    <hr />
+    <div class="homework">
+        <p class="text-center h3 heading">
+            <strong>Homework</strong>
+        </p>
+        {% block homework %}
+        {% endblock homework %}
+    </div>
+</div>
+
+{% endblock content %}
