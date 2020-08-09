@@ -1,0 +1,38 @@
+{% extends "chapter_layout.html" %}
+
+{% block title %}
+Be Smart
+{% endblock title %}
+
+{% block importFiles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/chapters.css') }}">
+{% endblock importFiles %}
+
+{% block video %}
+<div>
+
+    <div class="youtube_video">
+        <p class="h4 text-center heading">Be Smart PART 1</p>
+        <iframe src="https://www.youtube.com/embed/NWfIQzt_ZkY" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <hr>
+    <div class="youtube_video">
+        <p class="h4 text-center heading ">Be Smart PART 2</p>
+        <iframe src="https://www.youtube.com/embed/ZEdWM56iao4" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <hr>
+    <div class="youtube_video">
+        <p class="h4 text-center heading">Be Smart PART 3</p>
+        <iframe src="https://www.youtube.com/embed/_gZj1jKqxd4" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <hr>
+    <div class="youtube_video">
+        <p class="h4 text-center heading">Be Smart Chit Chat Video</p>
+        <iframe src="https://www.youtube.com/embed/-W8M7QqlCzU" frameborder="0"
+            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+{% endblock video %}
