@@ -1,0 +1,17 @@
+{% extends "chapter_layout.html" %}
+
+{% block title %}
+Language Study
+{% endblock title %}
+
+{% block importFiles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/chapters.css') }}">
+{% endblock importFiles %}
+
+
+{% block video %}
+<div class="youtube_video">
+    <iframe width="1040" height="585" src="https://www.youtube.com/embed/83ZnugmspCA" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+{% endblock video %}
