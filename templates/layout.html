@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{%block title%} {%endblock title%}</title>
+    <title>{% block title %} {% endblock title %}</title>
     <!-- User created/defined-->
-    {%block importFiles %} {%endblock importFiles %}
+    {% block importFiles  %} {% endblock importFiles  %}
     <script src=" {{ url_for('static', filename='js/index.js') }}"></script>
 
 
@@ -68,8 +68,8 @@
                 </div>
             </nav>
         </div>
-        {%block homepageImage %} {%endblock homepageImage %}
-        {% block content %} {% endblock content %}
+        {% block homepageImage  %} {% endblock homepageImage  %}
+        {%  block content  %} {%  endblock content  %}
 
     </div>
 </body>

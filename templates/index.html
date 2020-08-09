@@ -1,16 +1,16 @@
-{% extends 'layout.html'%}
-    {%block title%}
+{%  extends 'layout.html' %}
+    {% block title %}
         Home Page
-    {%endblock title%}
-    {%block importFiles %}
+    {% endblock title %}
+    {% block importFiles  %}
         <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}">
-    {%endblock importFiles%}
+    {% endblock importFiles %}
 
-    {%block homepageImage%}
+    {% block homepageImage %}
     <!-- <div>
     <img src="{{url_for('static',filename='images/bg.jpg')}}">
     </div> -->
 
-    {%endblock homepageImage%}
-    {%block content %}
-    {%endblock content%}
+    {% endblock homepageImage %}
+    {% block content  %}
+    {% endblock content %}
