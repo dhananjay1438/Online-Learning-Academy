@@ -47,8 +47,8 @@
                                 Class 9
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Chapter 1</a>
-                                <a class="dropdown-item" href="#">Chapter 2</a>
+                                <!-- <a class="dropdown-item" href="#">Chapter 1</a>
+                                <a class="dropdown-item" href="#">Chapter 2</a> -->
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -58,7 +58,17 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="{{url_for('teenager_prayer')}}">A teenager's Prayer</a>
-                                <a class="dropdown-item" href="#">Chapter 2</a>
+                                <a class="dropdown-item" href="{{url_for('be_smart')}}">Be Smart</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Grammar
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="{{url_for('degree_of_comparison')}}">Degree of Comparison</a>
+                                <a class="dropdown-item" href="{{url_for('language_study')}}">Language Study</a>
                             </div>
                         </li>
                     </ul>
