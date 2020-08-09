@@ -3,13 +3,19 @@
 A teenager's Prayer
 {% endblock title %}
 {% block importFiles %}
-<link rel="stylesheet" href="{{ url_for('static', filename='styles/teenager_prayer.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/chapters.css') }}">
 {% endblock importFiles %}
 
 {%  block content  %}
 {{super()}}
 {% endblock content %}
 
+{% block video %}
+<div class="youtube_video">
+    <iframe src="https://www.youtube.com/embed/WcjX6h65sNM" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+{% endblock video %}
 {% block course_material %}
 No course material right now
 {% endblock course_material %}
