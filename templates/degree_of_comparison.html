@@ -1,0 +1,16 @@
+{% extends "chapter_layout.html" %}
+
+{% block title %}
+Degree of Comparison
+{% endblock title %}
+
+{% block importFiles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/chapters.css') }}">
+{% endblock importFiles %}
+
+{% block video %}
+<div class="youtube_video">
+    <iframe src="https://www.youtube.com/embed/7kq1RoXK298" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+{% endblock video %}
